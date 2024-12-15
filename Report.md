@@ -4,7 +4,7 @@
 
 Below is the youtube video of running pretrained model.
 <a href="https://www.youtube.com/watch?v=SCSqUcMtb_k">
-<img src=""/>
+<img src="https://github.com/vyredo/nanodegree_RL_course1/blob/main/screenshot.jpg"/>
 </a>
 
 - You can open file `Navigation_with_pretrained.ipynb` to run it.
