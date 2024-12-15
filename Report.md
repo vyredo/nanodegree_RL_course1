@@ -1,23 +1,10 @@
 # Reinforcement Learning Nanodegree - Banana Unity Environment Report
 
-## Learning Algorithm
-
-The agent is implemented using:
-
-1. **Dueling Deep Q-Network (DQN)**:
-
-   - The Dueling DQN separates the Q-value into two components:
-     - **Value Stream**: Estimates the value of being in a given state.
-     - **Advantage Stream**: Estimates the relative importance of each action in a given state.
-
-2. **Prioritized Experience Replay**:
-   - Instead of sampling experiences randomly, the agent prioritizes experiences with higher temporal-difference errors (i.e., larger prediction errors).
-   - The prioritization is achieved using a **priority replay buffer** with a sampling probability
-
 ## Pretrained execution
 
 Below is the youtube video of running pretrained model.
-https://www.youtube.com/watch?v=SCSqUcMtb_k
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SCSqUcMtb_k?si=l5FSI9ZGdcsBE4aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - You can open file `Navigation_with_pretrained.ipynb` to run it.
 - pretrained model is located at [`runs/Banana_Linux.pt`](https://github.com/vyredo/nanodegree_RL_course1/blob/main/p1_navigation/runs/Banana_Linux.pt)
@@ -32,6 +19,20 @@ Episode 4	Score: 17.0
 Episode 5	Score: 17.0
 Average score over 5 episodes: 17.0
 ```
+
+## Learning Algorithm
+
+The agent is implemented using:
+
+1. **Dueling Deep Q-Network (DQN)**:
+
+   - The Dueling DQN separates the Q-value into two components:
+     - **Value Stream**: Estimates the value of being in a given state.
+     - **Advantage Stream**: Estimates the relative importance of each action in a given state.
+
+2. **Prioritized Experience Replay**:
+   - Instead of sampling experiences randomly, the agent prioritizes experiences with higher temporal-difference errors (i.e., larger prediction errors).
+   - The prioritization is achieved using a **priority replay buffer** with a sampling probability
 
 ## Log of Rewards
 
