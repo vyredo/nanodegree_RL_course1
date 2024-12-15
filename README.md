@@ -4,6 +4,10 @@ This repository contains the solution to the Udacity Nanodegree project for the 
 
 ---
 
+## Report
+
+Check this [link to view Report section](https://github.com/vyredo/nanodegree_RL_course1/blob/main/Report.md)
+
 ## Getting Started
 
 Follow the steps below to run the project and train the agent:

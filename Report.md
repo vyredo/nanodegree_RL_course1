@@ -20,7 +20,7 @@ Below is the youtube video of running pretrained model.
 https://www.youtube.com/watch?v=SCSqUcMtb_k
 
 - You can open file `Navigation_with_pretrained.ipynb` to run it.
-- pretrained model is located at `runs/Banana_Linux.pt`.
+- pretrained model is located at [`runs/Banana_Linux.pt`](https://github.com/vyredo/nanodegree_RL_course1/blob/main/p1_navigation/runs/Banana_Linux.pt)
 
 From the video we can see that the score for each episode are above 13
 
@@ -35,7 +35,7 @@ Average score over 5 episodes: 17.0
 
 ## Log of Rewards
 
-For the full log, check this [link].
+For the full log, check [this link](https://github.com/vyredo/nanodegree_RL_course1/blob/main/p1_navigation/runs/Banana_Linux.log)
 
 After training over **2400 episodes** the `mean score reach 13`. But the mean score still fluctuates
 See log below
@@ -64,4 +64,6 @@ The whole training is done for **10000 episodes**.
 
 ## Plot of Rewards
 
-![Rewards Plot](path/to/rewards_plot.png)
+This are the plot for 10000 episodes
+
+<img src="https://github.com/vyredo/nanodegree_RL_course1/blob/main/p1_navigation/runs/Banana_Linux.png" alt="Reward Plot" />
