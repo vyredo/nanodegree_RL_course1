@@ -3,8 +3,9 @@
 ## Pretrained execution
 
 Below is the youtube video of running pretrained model.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SCSqUcMtb_k?si=l5FSI9ZGdcsBE4aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=SCSqUcMtb_k">
+<img src=""/>
+</a>
 
 - You can open file `Navigation_with_pretrained.ipynb` to run it.
 - pretrained model is located at [`runs/Banana_Linux.pt`](https://github.com/vyredo/nanodegree_RL_course1/blob/main/p1_navigation/runs/Banana_Linux.pt)
